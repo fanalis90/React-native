@@ -65,6 +65,7 @@ const CutiStack = createStackNavigator({
     screen: FormcutiScreen,
     navigationOptions: ({
       title: 'Form Cuti',
+
     }),
   },
 
@@ -120,6 +121,7 @@ const Tabs = createAppContainer(createBottomTabNavigator(
         // icon component from react-native-vector-icons =  /n ${focused ? '' : '-outline'}
         return <Icon name={iconName} size={25} color={tintColor} />;
       },
+
     }),
     tabBarOptions: {
       activeTintColor: 'blue',
